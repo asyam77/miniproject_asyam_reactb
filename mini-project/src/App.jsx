@@ -4,7 +4,7 @@ import Homepage from "./pages/HalamanUtama/homepage";
 import Navbar from "./components/Navbar/navbar.jsx"
 import Footer from "./components/Footer/footer";
 import ProductPage from "./pages/Produk/product";
-
+import CartPage from "./pages/Keranjang/cart";
 
 function App() {
 
@@ -15,6 +15,7 @@ function App() {
 
           <Route exact path="/" element={<Homepage />} />
           <Route exact path="/produkList" element={<ProductPage />} />
+          <Route path="/keranjang" element={<CartPage />} />
 
         </Routes>
         <Footer />
