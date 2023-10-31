@@ -158,109 +158,33 @@
   "keranjangs": [],
   "pesanans": [
     {
-      "total_bayar": 8200000,
+      "total_bayar": 31000000,
       "menus": [
         {
-          "jumlah": 1,
-          "total_harga": 8200000,
+          "jumlah": 2,
+          "total_harga": 31000000,
           "product": {
-            "id": 1,
-            "kode": "BM-01",
-            "nama": "iPhone 11 black 128 GB",
-            "harga": 8200000,
-            "is_ready": false,
-            "gambar": "ip11hitam.jpg",
+            "id": 7,
+            "kode": "P-01",
+            "nama": "iPhone 13 Pro Graph 256 GB",
+            "harga": 15500000,
+            "is_ready": true,
+            "gambar": "ip13prograph.jpg",
             "category": {
-              "id": 1,
-              "nama": "BaseModel"
+              "id": 2,
+              "nama": "Pro"
             }
           },
-          "keterangan": "Cacat product",
+          "keterangan": "Ekstra Buble wrap",
           "id": 1
         }
       ],
       "id": 1
     },
     {
-      "total_bayar": 30000000,
-      "menus": [
-        {
-          "jumlah": 1,
-          "total_harga": 30000000,
-          "product": {
-            "id": 12,
-            "kode": "P-06",
-            "nama": "iPhone 15 Pro Titanium 1 TB",
-            "harga": 30000000,
-            "is_ready": true,
-            "gambar": "ip15protitanium.jpg",
-            "category": {
-              "id": 2,
-              "nama": "Pro"
-            }
-          },
-          "keterangan": "HDC",
-          "id": 1
-        }
-      ],
+      "total_bayar": 0,
+      "menus": [],
       "id": 2
-    },
-    {
-      "total_bayar": 22200000,
-      "menus": [
-        {
-          "jumlah": 1,
-          "total_harga": 8200000,
-          "product": {
-            "id": 1,
-            "kode": "B-01",
-            "nama": "iPhone 11 Black 128 GB",
-            "harga": 8200000,
-            "is_ready": false,
-            "gambar": "ip11hitam.jpg",
-            "category": {
-              "id": 1,
-              "nama": "Base"
-            }
-          },
-          "id": 1
-        },
-        {
-          "jumlah": 1,
-          "total_harga": 7000000,
-          "product": {
-            "id": 6,
-            "kode": "B-06",
-            "nama": "iPhone 11 White 64 GB",
-            "harga": 7000000,
-            "is_ready": true,
-            "gambar": "ip11white.jpg",
-            "category": {
-              "id": 2,
-              "nama": "Base"
-            }
-          },
-          "id": 2
-        },
-        {
-          "jumlah": 1,
-          "total_harga": 7000000,
-          "product": {
-            "id": 5,
-            "kode": "B-05",
-            "nama": "iPhone 13 White 128 GB",
-            "harga": 7000000,
-            "is_ready": true,
-            "gambar": "ip13white.jpg",
-            "category": {
-              "id": 2,
-              "nama": "Base"
-            }
-          },
-          "id": 3
-        }
-      ],
-      "id": 3
     }
   ]
 }

@@ -1,11 +1,5 @@
-import { Link } from "react-router-dom";
-import Button from "../../elements/Button/Button";
-import { useContext, useState } from "react";
-// import ProductsContext from "../../context/ProductsContext";
 import TableItem from "./TableItem";
-import { useSelector } from "react-redux"
 import {gql, useMutation, useQuery} from "@apollo/client"
-import { useEffect } from "react";
 import { GetProductList } from "../../helpers/gqlHasura";
 
 const Table = () => {
