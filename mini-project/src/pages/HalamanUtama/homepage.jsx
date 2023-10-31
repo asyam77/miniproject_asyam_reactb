@@ -11,7 +11,6 @@ import product6 from "../../assets/ip15protitanium.jpg"
 import product7 from "../../assets/ip15protitanblue.webp"
 import product8 from "../../assets/ip15protitanblack.webp"
 import { FaShippingFast, FaFunnelDollar, FaUserShield } from "react-icons/fa"
-
 import sampul4 from "../../assets/sampul4.png"
 
 
@@ -34,15 +33,14 @@ class Homepage extends Component {
                     <div className={Styles.row}>
                         <div className={Styles.grid_product}>
                             {/* {this.state.product.map(product => )} */}
-                            <ProductItem image={product1} title="iPhone 13 pink 128 GB" price="IDR 13.000.000" as={Link} to="/cart" />
-                            <ProductItem image={product2} title="iPhone 11 red 64 GB" price="IDR 7.000.000" action="product2/" />
-                            <ProductItem image={product3} title="iPhone 12 black 128 GB" price="IDR 11.500.000" action="detail_link_sample3" />
-                            <ProductItem image={product4} title="iPhone 11 black 128 GB" price="IDR 8.200.000" action="detail_link_sample4" />
-                            <ProductItem image={product5} title="iPhone 14 pro black 128 GB" price="IDR 18.500.000" action="detail_link_sample5" />
-                            <ProductItem image={product6} title="iPhone 15 titanium 256 GB" price="IDR 26.000.000" action="detail_link_sample6" />
-                            <ProductItem image={product7} title="iPhone 11 white 64 GB" price="IDR 10.000.000" action="detail_link_sample7" />
-                            <ProductItem image={product8} title="iPhone 11 white 64 GB" price="IDR 10.000.000" action="detail_link_sample8" />
-
+                            <ProductItem image={product1} title="iPhone 13 Pink 128 GB" price="IDR 13.000.000" as={Link} to="/cart" />
+                            <ProductItem image={product2} title="iPhone 11 Red 64 GB" price="IDR 7.000.000" action="product2/" />
+                            <ProductItem image={product3} title="iPhone 12 Black 128 GB" price="IDR 11.500.000" action="detail_link_sample3" />
+                            <ProductItem image={product4} title="iPhone 11 Black 128 GB" price="IDR 8.200.000" action="detail_link_sample4" />
+                            <ProductItem image={product5} title="iPhone 14 Pro Black 128 GB" price="IDR 18.500.000" action="detail_link_sample5" />
+                            <ProductItem image={product6} title="iPhone 15 Titanium 1 TB" price="IDR 30.000.000" action="detail_link_sample6" />
+                            <ProductItem image={product7} title="iPhone 15 Titan Blue 256 GB" price="IDR 26.000.000" action="detail_link_sample7" />
+                            <ProductItem image={product8} title="iPhone 15 Titan Blck 128 GB" price="IDR 23.000.000" action="detail_link_sample8" />
                         </div>
                     </div>
 
