@@ -6,7 +6,7 @@ import { useState } from 'react';
 import Button from '../../elements/Button/Button';
 import Card from "../../components/Card/Card";
 import './product.css'
-import  logo from '../../assets/logo2.svg.svg';
+import  logo from '../../assets/logo3.png';
 
 const ProductList = () => {
     const [search, setSearch] = useState('')
@@ -32,7 +32,7 @@ const ProductList = () => {
             <center>
                 <div className="container text-center mt-5">
                     <img
-                        style={{ height: 300, width: "300px" }}
+                        style={{ height: "228px", width: "228px" }}
                         src={logo}
                         alt="Hero Logo" />
                 </div>
