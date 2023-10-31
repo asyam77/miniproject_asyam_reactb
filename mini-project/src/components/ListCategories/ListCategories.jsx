@@ -3,12 +3,12 @@ import { Col, ListGroup } from 'react-bootstrap'
 import axios from 'axios'
 import { API_URL } from '../../utils/constants'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUtensils, faCheese, faSeedling } from '@fortawesome/free-solid-svg-icons'
+import { faUtensils, faStar, faBarsStaggered } from '@fortawesome/free-solid-svg-icons'
 
 
 const Icon = ({ nama }) => {
-    if (nama == "Aglonema") return <FontAwesomeIcon icon={faSeedling} className="ms-1 me-2" />
-    if (nama == "Homalomena") return <FontAwesomeIcon icon={faSeedling} className="ms-auto me-1" />
+    if (nama == "Base") return <FontAwesomeIcon icon={faBarsStaggered} className="ms-1 me-2" />
+    if (nama == "Pro") return <FontAwesomeIcon icon={faStar} className="ms-auto me-1" />
 
     return <FontAwesomeIcon icon={faUtensils} />
 }

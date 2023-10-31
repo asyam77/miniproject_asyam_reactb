@@ -1,6 +1,6 @@
+/* eslint-disable no-unused-vars */
 import React, { Component } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-// import { Hasil, ListCategories, Menus } from "../../components";
 import Hasil from "../../components/HasilKeranjang/Hasil"
 import ListCategories from "../../components/ListCategories/ListCategories"
 import Menus from "../../components/DaftarProduk/Menus"
@@ -16,7 +16,7 @@ export default class CartPage extends Component {
 
     this.state = {
       menus: [],
-      categoriYangDipilih: 'Aglonema',
+      categoriYangDipilih: 'Base',
       keranjangs: []
     }
   }
@@ -131,27 +131,27 @@ export default class CartPage extends Component {
   render() {
     const { menus, categoriYangDipilih, keranjangs } = this.state
     return (
-    <div className="mt-3">
-      <Container fluid>
-        <Row>
+      <div className="mt-3">
+        <Container fluid>
+          <Row>
             <ListCategories changeCategory={this.changeCategory} categoriYangDipilih={categoriYangDipilih} />
             <Col className='mt-3'>
-            <h4><strong>Daftar Produk</strong></h4>
-            <hr />
-            <Row>
+              <h4><strong>Daftar Produk</strong></h4>
+              <hr />
+              <Row>
                 {menus && menus.map((menu) => (
-                <Menus
+                  <Menus
                     key={menu.id}
                     menu={menu}
                     masukKeranjang={this.masukKeranjang}
-                />
+                  />
                 ))}
-            </Row>
+              </Row>
             </Col>
-            <Hasil keranjangs={keranjangs} {...this.props} getListKeranjang={this.getListKeranjang}/>
-        </Row>
-      </Container>
-    </div>
+            <Hasil keranjangs={keranjangs} {...this.props} getListKeranjang={this.getListKeranjang} />
+          </Row>
+        </Container>
+      </div>
     )
   }
 }
